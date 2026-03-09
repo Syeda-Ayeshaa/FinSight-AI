@@ -140,7 +140,7 @@ streamlit run app.py
 
 The dashboard will open at:
 
-http://localhost:8501
+https://finsight-invoice-ai.streamlit.app/
 Deployment
 
 The application can be deployed easily using Streamlit Community Cloud.
@@ -165,3 +165,4 @@ Author
 Syeda Ayesha Siddikha
 AIML Engineering Student
 Acharya Institute of Technology
+
