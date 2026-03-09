@@ -1,0 +1,40 @@
+{
+    "extracted_data": {
+        "invoice_id": "INV-001",
+        "vendor": "Demo Supplier",
+        "items": [
+            {
+                "item": "Laptop",
+                "qty": 2,
+                "price": 600
+            },
+            {
+                "item": "Mouse",
+                "qty": 5,
+                "price": 20
+            },
+            {
+                "item": "Keyboard",
+                "qty": 3,
+                "price": 50
+            }
+        ],
+        "tax": 100,
+        "total": 1550
+    },
+    "validation_result": {
+        "computed_subtotal": 1450.0,
+        "tax": 100.0,
+        "expected_total": 1550.0,
+        "actual_total": 1550.0,
+        "status": "VALID",
+        "explanation": "Invoice totals match calculated values.",
+        "calculation_steps": [
+            "2 \u00d7 600 = 1200",
+            "5 \u00d7 20 = 100",
+            "3 \u00d7 50 = 150"
+        ],
+        "subtotal_explanation": "Subtotal = 1200 + 100 + 150 = 1450",
+        "final_explanation": "Final Total = 1450 + 100 = 1550"
+    }
+}
